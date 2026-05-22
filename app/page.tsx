@@ -1,3 +1,12 @@
 export default function Home() {
-  return <h1>NEW WEBSITE WORKING 🚀</h1>
+  return (
+    <iframe
+      src="/index.html"
+      style={{
+        width: "100%",
+        height: "100vh",
+        border: "none",
+      }}
+    />
+  );
 }
