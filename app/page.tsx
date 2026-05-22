@@ -1,12 +1,15 @@
 export default function Home() {
   return (
-    <iframe
-      src="/index.html"
-      style={{
-        width: "100%",
-        height: "100vh",
-        border: "none",
-      }}
-    />
-  );
+    <div style={{
+      background:"black",
+      color:"white",
+      height:"100vh",
+      display:"flex",
+      justifyContent:"center",
+      alignItems:"center",
+      fontSize:"50px"
+    }}>
+      LIVE WEBSITE UPDATED 🚀
+    </div>
+  )
 }
