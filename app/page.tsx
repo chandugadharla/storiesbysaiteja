@@ -1,15 +1,3 @@
 export default function Home() {
-  return (
-    <div style={{
-      background:"black",
-      color:"white",
-      height:"100vh",
-      display:"flex",
-      justifyContent:"center",
-      alignItems:"center",
-      fontSize:"50px"
-    }}>
-      LIVE WEBSITE UPDATED 🚀
-    </div>
-  )
+  return <h1>NEW WEBSITE WORKING 🚀</h1>
 }
